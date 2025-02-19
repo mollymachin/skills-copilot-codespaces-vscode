@@ -15,7 +15,3 @@ app.get('/comments', function(req, res) {
   res.json(comments);
 });
 
-// Add new comment
-app.post('/comments', function(req, res) {
-  var newComment = {
-    id: Date.now(),
